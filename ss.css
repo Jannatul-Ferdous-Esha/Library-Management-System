@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner
+{
+	background-color: silver;
+	background-image: url("image/kk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:700px;
+	width: 1366px;
+
+}
+
+.menu ul
+{   
+	float:right;
+	list-style: none;
+	position: sticky;
+}
+.menu ul li
+{
+	float: left;
+	margin-top: 100px;
+height:37px;
+line-height: 32px;
+padding-top: 2px;
+width:148px;
+background-color: darkslategray;
+text-align: center;
+display: block;
+border:0px solid rgb(20, 20, 20);
+ transition: all linear .2s;
+ position: sticky;
+ margin-right: 1px;
+
+}
+a
+{
+	text-decoration: none;
+	color: rgb(231, 231, 240);
+
+}
+.active a{
+  background-color: rgb(48, 32, 78);
+}
+.menu ul li ul li
+{	
+	display:none ;
+	margin: 0;
+
+	height:40px;
+	line-height: 40px;
+	width:148px;
+	
+	 transition: all linear .3s;
+}
+.menu ul li:hover ul li
+{
+	display: block;
+	 transition: all linear .3s;
+}
+.menu ul li ul
+{
+margin-top: 6px;
+transition: all linear .4s;
+}
+
+.name h1
+{
+	float:right;
+	font-size: 65px;
+	margin-right: 150px;
+padding-top: 20px;
+color: rgb(48, 32, 78);
+
+}
+.name p
+{	
+	font-size: 20px;
+	color: rgb(48, 32, 78);
+	position: absolute;
+	padding-top: 90px;
+	padding-left: 870px;
+}
+.name img
+{
+	float: right;
+	padding-left:800px;
+	margin-top: -85px;
+	
+}
+.contact
+{
+	background-color: transparent;
+	height: 180px;
+	width: 382px;
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+.contact p
+{
+
+}
